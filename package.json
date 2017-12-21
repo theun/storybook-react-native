@@ -20,6 +20,9 @@
     "type": "git",
     "url": "https://github.com/storybooks/storybook.git"
   },
+  "scripts": {
+    "prepare": "node ./scripts/prepare.js"
+  },
   "dependencies": {
     "@storybook/addon-actions": "^3.2.18",
     "@storybook/addon-links": "^3.2.18",
