@@ -14,7 +14,7 @@
   "license": "MIT",
   "main": "src/index.js",
   "bin": {
-    "storybook": "dist/bin/storybook.js"
+    "storybook": "src/bin/storybook.js"
   },
   "repository": {
     "type": "git",
