@@ -1,6 +1,6 @@
 {
   "name": "@storybook/react-native",
-  "version": "3.2.20",
+  "version": "3.2.21",
   "description": "A better way to develop React Native Components for your app",
   "keywords": [
     "react",
@@ -12,9 +12,9 @@
     "url": "https://github.com/storybooks/storybook/issues"
   },
   "license": "MIT",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "bin": {
-    "storybook": "src/bin/storybook.js"
+    "storybook": "dist/bin/storybook.js"
   },
   "repository": {
     "type": "git",
@@ -30,6 +30,7 @@
     "@storybook/channel-websocket": "^3.2.18",
     "@storybook/ui": "^3.2.18",
     "autoprefixer": "^7.2.3",
+    "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-plugin-syntax-async-functions": "^6.13.0",
